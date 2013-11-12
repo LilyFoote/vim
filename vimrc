@@ -162,3 +162,7 @@ nnoremap <C-L> :nohl<CR><C-L>
 
 
 "------------------------------------------------------------
+
+" Remap code folding to space
+
+nnoremap <space> za
