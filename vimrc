@@ -160,6 +160,8 @@ map Y y$
 " next search
 nnoremap <C-L> :nohl<CR><C-L>
 
+" Permanently disable Ex mode
+nnoremap Q <nop>
 
 "------------------------------------------------------------
 
