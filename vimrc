@@ -168,3 +168,10 @@ nnoremap Q <nop>
 " Remap code folding to space
 
 nnoremap <space> za
+
+" Disable arrow keys
+
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
