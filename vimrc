@@ -165,6 +165,9 @@ nnoremap Q <nop>
 
 "------------------------------------------------------------
 
+" Use dark colour scheme
+set bg=dark
+
 " Remap code folding to space
 
 nnoremap <space> za
