@@ -182,3 +182,14 @@ noremap <Right> <NOP>
 " Use flake8
 
 let g:syntastic_python_checkers=['flake8']
+
+" Strip trailing whitespace on save
+
+fun! <SID>StripTrailingWhitespaces()
+    let l = line(".")
+    let c = col(".")
+    %s/\s\+$//e
+    call cursor(l, c)
+endfun
+
+autocmd FileType c,cpp,java,php,ruby,python autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
