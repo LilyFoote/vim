@@ -193,3 +193,7 @@ fun! <SID>StripTrailingWhitespaces()
 endfun
 
 autocmd FileType c,cpp,java,php,ruby,python autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+
+" Makefile modelines
+
+autocmd FileType make set modelines=0
