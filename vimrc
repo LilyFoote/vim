@@ -197,3 +197,7 @@ autocmd FileType c,cpp,java,php,ruby,python autocmd BufWritePre <buffer> :call <
 " Makefile modelines
 
 autocmd FileType make set modelines=0
+
+" Markdown syntax highlighting
+
+au BufRead,BufNewFile *.md set filetype=markdown
