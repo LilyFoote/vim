@@ -181,7 +181,7 @@ noremap <Right> <NOP>
 
 " Use flake8
 
-let g:syntastic_python_checkers=['flake8']
+let g:syntastic_python_checkers=['flake8', 'pylint']
 
 " Strip trailing whitespace on save
 
