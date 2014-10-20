@@ -201,3 +201,7 @@ autocmd FileType make set modelines=0
 " Markdown syntax highlighting
 
 au BufRead,BufNewFile *.md set filetype=markdown
+
+" Relative line numbers
+
+set relativenumber
