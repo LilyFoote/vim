@@ -5,10 +5,6 @@
 "              If you're a more advanced user, building your own .vimrc based
 "              on this file is still a good idea.
 
-" Pathogen
-
-execute pathogen#infect()
-
 "------------------------------------------------------------
 " Features {{{1
 "
@@ -18,6 +14,18 @@ execute pathogen#infect()
 " Set 'nocompatible' to ward off unexpected things that your distro might
 " have made, as well as sanely reset options when re-sourcing .vimrc
 set nocompatible
+
+" Vundle
+
+filetype off
+set runtimepath+=~/.vim/bundle/vundle
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+Bundle 'tmhedberg/SimpylFold'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'scrooloose/syntastic'
+Bundle 'sukima/xmledit'
 
 " Attempt to determine the type of a file based on its name and possibly its
 " contents. Use this to allow intelligent auto-indenting for each filetype,
