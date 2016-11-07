@@ -18,14 +18,14 @@ set nocompatible
 " Vundle
 
 filetype off
-set runtimepath+=~/.vim/bundle/vundle
-call vundle#rc()
+set runtimepath+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'tmhedberg/SimpylFold'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'scrooloose/syntastic'
-Bundle 'sukima/xmledit'
+Plugin 'VundleVim/Vundle.Vim'
+Plugin 'tmhedberg/SimpylFold'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'scrooloose/syntastic'
+Plugin 'sukima/xmledit'
 
 " Attempt to determine the type of a file based on its name and possibly its
 " contents. Use this to allow intelligent auto-indenting for each filetype,
