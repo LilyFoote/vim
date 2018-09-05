@@ -27,6 +27,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
 Plugin 'sukima/xmledit'
 Plugin 'Vimjas/vim-python-pep8-indent'
+Plugin 'editorconfig/editorconfig-vim'
 
 call vundle#end()
 
