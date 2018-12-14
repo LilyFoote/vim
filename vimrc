@@ -28,6 +28,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'sukima/xmledit'
 Plugin 'Vimjas/vim-python-pep8-indent'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'ambv/black'
 
 call vundle#end()
 
