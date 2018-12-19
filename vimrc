@@ -218,3 +218,7 @@ au BufRead,BufNewFile *.md set filetype=markdown
 " Relative line numbers
 
 set relativenumber
+
+" Black
+
+let g:black_skip_string_normalization=1
