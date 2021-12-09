@@ -28,7 +28,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'sukima/xmledit'
 Plugin 'Vimjas/vim-python-pep8-indent'
 Plugin 'editorconfig/editorconfig-vim'
-Plugin 'ambv/black'
+Plugin 'psf/black'
 
 call vundle#end()
 
@@ -218,7 +218,3 @@ au BufRead,BufNewFile *.md set filetype=markdown
 " Relative line numbers
 
 set relativenumber
-
-" Black
-
-let g:black_skip_string_normalization=1
