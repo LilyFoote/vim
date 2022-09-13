@@ -29,6 +29,7 @@ Plugin 'sukima/xmledit'
 Plugin 'Vimjas/vim-python-pep8-indent'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'psf/black'
+Plugin 'Glench/Vim-Jinja2-Syntax'
 
 call vundle#end()
 
