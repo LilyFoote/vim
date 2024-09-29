@@ -30,6 +30,7 @@ Plugin 'Vimjas/vim-python-pep8-indent'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'psf/black'
 Plugin 'Glench/Vim-Jinja2-Syntax'
+Plugin 'rust-lang/rust.vim'
 
 call vundle#end()
 
@@ -206,6 +207,10 @@ fun! <SID>StripTrailingWhitespaces()
     %s/\s\+$//e
     call cursor(l, c)
 endfun
+
+" Autoformat Rust
+
+let g:rustfmt_autosave = 1
 
 autocmd FileType c,cpp,java,php,ruby,python autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
 
